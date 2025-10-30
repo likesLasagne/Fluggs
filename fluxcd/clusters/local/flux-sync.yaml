@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: git-pull-secret
-  url: ssh://github.com/likesLasagne/Fluggs.git
+  url: ssh://git@github.com/likesLasagne/Fluggs.git
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
